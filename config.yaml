@@ -1,0 +1,7 @@
+baseURL: "https://zachlasiuk.github.io/portfolio/"
+languageCode: en-us
+title: Zach Lasiuk Portfolio
+theme: 'zach-lasiuk-theme'
+params:
+  author: Zach Lasiuk
+  description: Zach's portfolio - designs and creations.
