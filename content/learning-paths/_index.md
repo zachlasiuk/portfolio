@@ -1,7 +1,6 @@
 ---
-layout: "design_tech_leader"       # All files under learning paths have this same wrapper
-
 title: Learning Paths
+top_line_desc: This is the top line description. This is the top line description. This is the top line description. This is the top line description. This is the top line description.
 
 context:
     main_role: Design Technologist
@@ -18,6 +17,7 @@ context:
         - Design Systems
         - HTML, CSS, JS
         - Hugo
+    main_image: learning-path-main.png
 
 review: this and that. content.
 ---

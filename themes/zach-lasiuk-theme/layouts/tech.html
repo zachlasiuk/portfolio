@@ -10,8 +10,10 @@
             - ...
         - Review 
 */}}
-{{ define "main" }}
-
-in design_tech_leader.html layout page
-
+{{/* Never used, but keeping it prevents Hugo cmd line warnings from appearing */}}
+{{define "main"}}
+    IN TECH
+    {{ with .Content }}
+    {{ . }}
+    {{ end }}
 {{end}}
