@@ -5,3 +5,6 @@ theme: 'zach-lasiuk-theme'
 params:
   author: Zach Lasiuk
   description: Zach's portfolio - designs and creations.
+
+permalinks:
+  learning-paths: "/learning-paths/:title/"

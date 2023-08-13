@@ -1,0 +1,71 @@
+.container {
+  width: 90%;
+}
+
+h1 {
+  color: red;
+}
+
+.menu {
+  color: white;
+}
+
+.material-icons {
+  color: #29b6f6;
+}
+
+.us {
+  color: #ffcc80;
+}
+
+
+
+
+
+        .rcircle {
+          /* (A) PERCENTAGE WIDTH & BORDER RADIUS */
+          width: 200px; border-radius: 100px;
+            /* (B) FAKE 3D SPHERE */
+            /* http://www.colorzilla.com/gradient-editor/ */
+            background: linear-gradient(135deg, #a7cfdf 0%,#23538a 100%);
+            /* https://html-css-js.com/css/generator/box-shadow/ */
+            box-shadow: inset -8px -7px 4px 0px rgba(0,0,0,0.3);
+            
+          /* (B) NECESSARY TO POSITION TEXT BLOCK */
+          line-height: 0;
+          position: relative;
+        }
+         
+        /* (C) MATCH HEIGHT */
+        .rcircle::after {
+          content: "";
+          display: block;
+          padding-bottom: 100%;
+        }
+         
+        /* (D) TEXT BLOCK */
+        .rcircle .txt {
+          /* (D1) CENTER TEXT IN CIRCLE */
+          position: absolute; bottom: 50%; 
+          width: 100%; text-align: center;
+         
+        }
+         
+
+
+
+.homepage-discipline-cards {
+    animation-duration: 8s;
+    animation-name: moving;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    position: relative;
+}
+@keyframes moving {
+    0%   {left:0px; top:0px;}
+    25%  {left:16px; top:0px;}
+    50%  {left:16px; top:16px;}
+    75%  {left:0px; top:16px;}
+    100% {left:0px; top:0px;}
+}
