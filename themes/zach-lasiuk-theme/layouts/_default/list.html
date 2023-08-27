@@ -17,6 +17,14 @@
 */}}
 
 {{define "main"}}
+    <!-- Project Title -->
+    <div class="row" style="background-color: var(--zach-blue);">
+        <h1 class="center-text-align" style="white-space: nowrap;">Learning Pathsz</h1>
+    </div>
+
+<div class="container">
+
+
 
     {{/* Create in Materialize a two column layout */}}
     <div class="section">
@@ -24,8 +32,8 @@
 
             <!-- Context Col -->
             <div class="col s12 m6">
-                <h1>Learning Paths</h1>
-                <p>{{.Params.top_line_desc}}</p>
+                <h1>{{.Title}}</h1>
+                <p>{{.Params.context.top_line_desc}}</p>
                 <div class="row">
                     <div class="col s12 m6">
                         <table class="striped">
@@ -74,5 +82,7 @@
     {{ . }}
     {{ end }}
 
+
+</div>
     
 {{end}}
