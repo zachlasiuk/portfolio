@@ -1,71 +1,75 @@
-.container {
-  width: 90%;
+:root {
+    --zach-blue: #3895A7;
+    --dark-blue: #276673;
+    --light-blue: #9BE4F2;
+
+    --sea-white: #E1ECEB;
+    --sand: #F8EFD8;
+    
+    --sunglow: #FFC955;
+
+    --white: #FFFFFF;
+    --rich-black: #0C0E16;  
+}
+
+.dark-current-text {
+    background: -webkit-linear-gradient(left,var(--rich-black), var(--dark-blue));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+.cuban-current-text {
+    background: -webkit-linear-gradient(left,var(--dark-black), var(--zach-blue));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+.light-current-text {
+    background: -webkit-linear-gradient(left,var(--light-blue), var(--sea-white));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+.beach-foam-text {
+    background: -webkit-linear-gradient(left,var(--light-blue), var(--sea-white), var(--sand));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+
+
+
+.center-text-align {
+    text-align: center;
+}
+
+
+
+
+.light-blue-full-bleed {
+    /* set background color to be full width of page. */
+    background-color: var(--light-blue);
+    box-shadow: 0 0 0 100vmax var(--light-blue);
+    clip-path: inset(0 -100vmax); 
+}
+
+.zach-blue-full-bleed {
+    background-color: var(--zach-blue);
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
 }
 
 h1 {
-  color: red;
-}
-
-.menu {
-  color: white;
-}
-
-.material-icons {
-  color: #29b6f6;
-}
-
-.us {
-  color: #ffcc80;
+  color: var(--zblue);
 }
 
 
 
-
-
-        .rcircle {
-          /* (A) PERCENTAGE WIDTH & BORDER RADIUS */
-          width: 200px; border-radius: 100px;
-            /* (B) FAKE 3D SPHERE */
-            /* http://www.colorzilla.com/gradient-editor/ */
-            background: linear-gradient(135deg, #a7cfdf 0%,#23538a 100%);
-            /* https://html-css-js.com/css/generator/box-shadow/ */
-            box-shadow: inset -8px -7px 4px 0px rgba(0,0,0,0.3);
-            
-          /* (B) NECESSARY TO POSITION TEXT BLOCK */
-          line-height: 0;
-          position: relative;
-        }
-         
-        /* (C) MATCH HEIGHT */
-        .rcircle::after {
-          content: "";
-          display: block;
-          padding-bottom: 100%;
-        }
-         
-        /* (D) TEXT BLOCK */
-        .rcircle .txt {
-          /* (D1) CENTER TEXT IN CIRCLE */
-          position: absolute; bottom: 50%; 
-          width: 100%; text-align: center;
-         
-        }
-         
-
-
-
-.homepage-discipline-cards {
-    animation-duration: 8s;
-    animation-name: moving;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    animation-direction: alternate;
-    position: relative;
-}
-@keyframes moving {
-    0%   {left:0px; top:0px;}
-    25%  {left:16px; top:0px;}
-    50%  {left:16px; top:16px;}
-    75%  {left:0px; top:16px;}
-    100% {left:0px; top:0px;}
+body {
+    width: 100%;
 }
