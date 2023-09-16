@@ -64,6 +64,16 @@
     margin-right: -50vw;
 }
 
+
+
+body {
+    background-color: var(--sand);
+}
+
+
+
+
+
 h1 {
   color: var(--zblue);
 }
