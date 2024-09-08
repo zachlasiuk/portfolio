@@ -66,8 +66,10 @@ Spoilers: After one year, the following:
 
 # My Process
 
-{{< text_picture image="learning-path-main.PNG" alt="Description of the image" >}}
-Armed only with high-level business requirements, a company-wide design system, and the skills of our team, the first decision to make was how make decisions. For such open-ended projects, I find the popular Design Thinking approach ideal for rapid progress while remaining focused on the end customer experience.
+{{< text_picture image="design-thinking.webp" alt="Description of the image" >}}
+
+Armed only with high-level business requirements, a company-wide design system, and the skills 
+of our team, the first decision to make was how make decisions. For such open-ended projects, I find the popular Design Thinking approach ideal for rapid progress while remaining focused on the end customer experience.
 
 I based my creation process on the 5 step Stanford d.school Design Thinking framework of Empathize, Define, Ideate, Prototype, and Test. Recognizing our team's limited resources, hand-over requirements, and standard Arm ways of working, I adjusted this to work better by condensing Prototype & Test into one functional step and adding two more:
 - Empathize -briefly describe
@@ -82,4 +84,16 @@ I based my creation process on the 5 step Stanford d.school Design Thinking fram
 
 
 
-#
+# Empathize
+
+{{< text9_pic3 image="empathize-pic.jpg" alt="Description of the image" >}}
+One of the main blockers I've experienced in leading projects earlier in my career with a customer-centric process is failing to direct the team's focus on understanding/defining the problem first before ideating/building solutions. I have realized it is how many engineers, including myself, are taught in school, and without any UX exposure it becomes the default way of thinking. After 5 years of working successfully with my team, I was empowered to make process decisions and guide them through.
+
+
+
+First up was unearthing relevent customer data Arm already had. We have existing software user personas I could leverage, as well as recordings of recent interviews on SW developer's content viewing experience today on Arm. These sessions are part of what sparked management desire for this project in the first place.
+
+Second, although this was a great base of knowledge to start from, I identified what we still didn't know but needed to. This primarily included observing how engineers contribute content today. Accordingly I performed usability tests on our current contribution processes with Arm  engineering contributors in 1-hour sessions until the experiences overlapped enough to add no new insights.
+
+Lastly, I supplemented this direct empathic research with industry insight reports. Very handy. All of this research laid an excellent foundation to crystalizing our customer's problem to solve.
+{{< /text9_pic3 >}}

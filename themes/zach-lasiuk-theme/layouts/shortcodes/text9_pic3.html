@@ -1,0 +1,12 @@
+<div class="row">
+    <div class="col s12 m9" style="margin-right: 16px;">
+      
+      {{ .Inner | markdownify }}
+    </div>
+    <div class="col s12 m3">
+      <div style="max-height: 100%; overflow: hidden; margin-left: 16px;">
+        <img src="{{ .Get "image" }}" alt="{{ .Get "alt" }}" style="max-height: 100%; width: 100%; object-fit: cover;">
+      </div>
+    </div>
+  </div>
+  
